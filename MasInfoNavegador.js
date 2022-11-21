@@ -1,0 +1,14 @@
+document.write("<p> <ul>");
+document.write("<li> Plataforma: ");
+document.write(info.platform);
+document.write("</li>");
+document.write("<li> Version: ");
+document.write(info.appVersion);
+document.write("</li>");
+document.write("<li> Distribuidor: ");
+document.write(info.vendor);
+document.write("</li>");
+document.write("<li> Agente: ");
+document.write(info.userAgent);
+document.write("</li>");
+document.write("</ul> </p>");
